@@ -330,7 +330,7 @@ padding-top:100%; width: 100%;
 border-bottom: 1px #fff dotted;
 }
 .hi {
-    font-family: "Helvetica Neue";
+    font-family: "Helvetica Neue", "Segoe UI", sans-serif;
     font-weight: 100;
     color:#19B5FE;
     opacity: 1 !important;
