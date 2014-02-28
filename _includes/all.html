@@ -1,0 +1,14 @@
+<div class="twelve columns offset-by-six content">
+	<div class="twelve columns" style="margin-top:105px;">
+		<hr class="lighter"/>
+		<div class="recent-posts">all posts <div class="spanlighter"> by most recent</div></div>
+		<div class="row">
+			<ul class="all-posts">
+				{% for post in site.posts %}
+				<li style="list-style: none"><a href="{{ post.url }}"><span><h4><div id="numbers">&nbsp;{{ forloop.index }}&nbsp;</div>{{ post.title }}<span class="post-list all-date">{{ post.date | date_to_string | date: "%b %-d, %Y"  }}</span></span></a></li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+</div>
+</div>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+  <!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="utf-8">
+  <title>{{ site.name }}</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1 user-scalable=no">
+
+  <!-- CSS
+  ================================================== -->
+  <link rel="stylesheet" href="/stylesheets/base.css">
+  <link rel="stylesheet" href="/stylesheets/skeleton.css">
+  <link rel="stylesheet" href="/stylesheets/layout.css">
+      <link rel="stylesheet" href="/js/jquery.sidr.dark.css">
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <script src="/js/jquery-1.10.2.min.js"></script>
+    <script src="/js/jquery.sidr.min.js"></script>
+  <script src="/js/script.js"></script>
+  <script src="/js/jquery.airport-1.1.source.js"></script>
+
+      <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+  <!-- Favicons
+  ================================================== -->
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+</head>
+<body>
+
+
+  <!-- Primary Page Layout
+  ================================================== -->
+
+  <div class="container">
+
+ <style>
+#mobile-header {
+    display: none;
+    position: fixed;
+    background-color: rgba(0,0,0,1);
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    left: 0;
+    height: 25px;
+    padding-left: 20px;
+    z-index: 40;
+    box-shadow: 
+}
+@media only screen and (max-width: 767px){
+    #mobile-header {
+        display: block;
+    }
+}
+</style>
+<div id="mobile-header">
+    <a id="responsive-menu-button" href="#sidr-main" style="font-size:15px; color:#fff; font-family: Gotham, Helvetica Neue; font-weight: bolder;"><i class="fa fa-bars go-to-post"></i>&nbsp;{{ site.name }}</a>
+</div>
+
+
+
+      <div class="one column  go-to-top">
+
+              <a href="#top"><i class="scroll fa fa-arrow-circle-up fa-2x"></i></a>&nbsp;
+  </div>
+    <div class="two columns offset-by-one sidebar"> 
+      <nav>
+        <a id="simple-menu" href="{{ site.url }}/"><h1 class="logo">{{ site.name }}</h1></a>
+          <div class="social-links animate">
+            <!--
+            <div style="line-height: 200%;">
+
+            <a href="{{ site.url }}/about.html" class="social"><i class="fa fa-user"></i>&nbsp;&nbsp; about</a><br>
+            <a href="{{ site.url }}/all.html"class="social"><i class="fa fa-list-ul"></i>&nbsp; all posts</a><br>
+            <a href="{{ site.url }}/favorites.html"class="social"><i class="fa fa-heart"></i>&nbsp; favorites</a><br>
+            <a href="{{ site.url }}/events.html"class="social"><i class="fa fa-calendar"></i>&nbsp; events</a><br>
+            <a href="{{ site.url }}/contact.html"class="social"><i class="fa fa-phone"></i>&nbsp;&nbsp; contact</a>
+            </div>
+            <br><a href="mailto:hi@robinspatel.com" class="social"><i class="fa fa-comment fa"></i>&nbsp; {{ site.email }}</a><br><br>
+            <p class="spanlighter"><small>{{ site.description }}</small></p>
+          </div>
+      -->
+<div id="navigation">
+    <nav class="nav">
+            <ul>
+                          <a href="{{ site.twitter }}" class="social"><i class="fa fa-twitter-square fa-2x"></i></a>
+              <a href="{{ site.linkedin }}"class="social"><i class="fa fa-linkedin-square fa-2x"></i> </a> 
+              <a href="{{ site.facebook }}"class="social"><i class="fa fa-facebook-square fa-2x"></i> </a>
+              <a href="{{ site.github }}"class="social"><i class="fa fa-github-square fa-2x"></i> </a>
+                  <hr class="clear"/>
+              <li><a href="{{ site.url }}/" class="social"><i class="fa fa-home navi"></i><span>home</span></a></li>
+
+              <li><a href="{{ site.url }}/about.html" class="social"><i class="fa fa-user navi"></i><span>about</span></a></li>
+              <li> <a href="{{ site.url }}/all.html"class="social"><i class="fa fa-list navi"></i><span>all posts</span></a></li>
+              <li><a href="{{ site.url }}/favorites.html"class="social"><i class="fa fa-heart navi"></i><span>favorites</span></a></li>
+              <li><a href="{{ site.url }}/events.html"class="social"><i class="fa fa-calendar navi"></i><span>events</span></a></li>
+              <li><a href="{{ site.url }}/contact.html"class="social"><i class="fa fa-phone navi"></i><span>contact</span></a></li>
+              <li><br><a href="mailto:hi@robinspatel.com" class="social" style="background-color:rgba(0,0,0,.5); padding: 2px 6px 2px 6px;"><small> <i class="fa fa-comment fa"></i> {{ site.email }}</small></a></li>
+            </ul>
+
+    </nav>
+</div>
+
+ <script>
+    $('#responsive-menu-button').sidr({
+      name: 'sidr-main',
+      source: '#navigation'
+    });
+</script>
+
+      </nav>
+      &nbsp;
+    </div>
+
+
