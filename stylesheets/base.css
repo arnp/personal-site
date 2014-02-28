@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6, p, li, td {
 	h6 { font-size: 14px; line-height: 21px; }
 	.subheader { color: #777; }
 
-	p { font-family: "HelveticaNeue-Light" ,"Segoe UI",;margin: 0 0 20px 0; font-size: 18px;}
+	p { font-family: "HelveticaNeue-Light","Segoe UI";margin: 0 0 20px 0; font-size: 18px;}
 	p img { margin: 0; }
 	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
 
