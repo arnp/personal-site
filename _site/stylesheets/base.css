@@ -65,7 +65,7 @@
 ================================================== */
 	h1, h2, h3, h4, h5, h6 {
 		color: rgba(255,255,255,0.8);
-		font-family: "HelveticaNeue-Light", "Georgia", "Times New Roman", serif;
+		font-family: "HelveticaNeue-Light", "Segoe UI", "Times New Roman", serif;
 		font-weight: normal; }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px;}
@@ -76,7 +76,7 @@
 	h6 { font-size: 14px; line-height: 21px; }
 	.subheader { color: #777; }
 
-	p { font-family: "HelveticaNeue-Light";margin: 0 0 20px 0; font-size: 18px;}
+	p { font-family: "HelveticaNeue-Light" ,"Segoe UI",;margin: 0 0 20px 0; font-size: 18px;}
 	p img { margin: 0; }
 	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
 
@@ -148,7 +148,7 @@
 	  margin-bottom: 20px;
 	  line-height: normal;
 	  padding: 8px 10px;
-	  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+	  font-family: "HelveticaNeue",  "Segoe UI","Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 	.button:hover,
 	button:hover,
@@ -205,7 +205,7 @@
 		-moz-border-radius: 2px;
 		-webkit-border-radius: 2px;
 		border-radius: 2px;
-		font: 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font: 13px "HelveticaNeue",  "Segoe UI","Helvetica Neue", Helvetica, Arial, sans-serif;
 		color: #777;
 		margin: 0;
 		width: 210px;
